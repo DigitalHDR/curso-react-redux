@@ -1,0 +1,33 @@
+.Card {
+    flex: 1; /*estica a largura do conteudo até o fim*/
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.Card .Header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Card .Header .Title {
+    flex: 1;
+    /*faz ocupar a largura toda do conteúdo*/
+    padding: 5px;
+}
+
+.Card.Red .Header {color: #fff; background-color: #c62828;}
+
+.Card.Red .Content {background-color: #f44336;}
+
+.Card.Green .Header {color: #fff; background-color: #28c64f;}
+
+.Card.Green .Content {background-color: #33ff66;}
+
+.Card.Blue .Header {color: #fff; background-color: #283ac6;}
+
+.Card.Blue .Content {background-color: #324aff;}
+
+.Card.Purple .Header {color: #fff; background-color: #9928c6;}
+
+.Card.Purple .Content {background-color: #c533ff;}
