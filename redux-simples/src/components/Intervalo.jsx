@@ -1,10 +1,10 @@
 import './Intervalo.css'
-import React from 'react'
 import Card from './Card'
+import React from 'react'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => {
-    const { min, max } = props
+
     return (
         <Card title='Intervalo de Números' Red>
             <div className="Intervalo">
