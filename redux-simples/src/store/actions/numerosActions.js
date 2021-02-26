@@ -1,7 +1,12 @@
+import {
+    NUM_MIN_ALTERADO,   //constante
+    NUM_MAX_ALTERADO    //constante
+} from './actionTypes'
+
 // Action Creator
 export function alterarNumeroMinimo(novoMumero) {
     return {
-        type: 'NUM_MIN_ALTERADO',
+        type: NUM_MIN_ALTERADO,
         payload: novoMumero,
     }
 }
@@ -9,7 +14,7 @@ export function alterarNumeroMinimo(novoMumero) {
 // Action Creator
 export function alterarNumeroMaximo(novoMumero) {
     return {
-        type: 'NUM_MAX_ALTERADO',
+        type: NUM_MAX_ALTERADO,
         payload: novoMumero,
     }
 }
